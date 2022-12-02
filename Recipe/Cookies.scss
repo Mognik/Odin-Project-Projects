@@ -1,0 +1,63 @@
+body {
+    background-color: #CDF0EA;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 1;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    float: center;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    background-color: #ECC5FB;
+    border-width: 20px;
+}
+.ingredients {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+table, th, td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+}
+img {
+    border-radius: 25%;
+}
+.chocochip {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+}
+.prep {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    padding-top: 25px;
+}
+.bake {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+
+.home {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
